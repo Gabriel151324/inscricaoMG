@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<script src="/js/index.js"></script>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Cadastro</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo" id="username"
+                required>
+                <i class='bx bxs-user' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Idade" id="age"
+                required>
+                <i class='bx bxs-user' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Endereço" id="address"
+                required>
+                <i class='bx bxs-user' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="E-mail" id="email"
+                required>
+                <i class='bx bxs-user' ></i>
+            </div>
+
+            <div class="input-box">
+                <select name="Curso" id="desired course" required>
+                    <option value="">Selecione:</option>
+                    <option value="DS1" id="ds">Desenvolvimento de Sistemas</option>
+                    <option value="CTB1" id="ctb">Contabilidade</option>
+                    <option value="Mult1" id="mult">Multimídia</option>
+                </select>
+                <i class='bx bxs-user' id="boxicons" ></i>
+            </div>
+
+            <button type="submit" onclick="enviar(); return false" class="btn">Enviar Formulário</button>
+        </form>
+    </div>
+</body>
